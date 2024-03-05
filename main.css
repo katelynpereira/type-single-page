@@ -1,16 +1,15 @@
 @font-face {
-    src: url("./fonts/FormaDJRVariableNormal[opsz\,slnt\,wght]-Edu.woff2") format("woff2"),
-         url('./fonts/FormaDJRVariableNormal[opsz\,slnt\,wght]-Edu.woff') format("woff"),
-        url('./fonts/FormaDJRVariableNormal[opsz\,slnt\,wght]-Edu.ttf') format('truetype');
+    src: url('fonts/Amstelvar-Italic[GRAD\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,wdth\,wght\,opsz].ttf') format(".ttf"),
+       
 
-    font-family: 'Forma';
+    font-family: 'Amstelvar';
     font-style: normal;
     font-weight: normal;
     }
     
     body{
     background-color: lightsteelblue;
-    font-family: 'Forma';
+    font-family: 'Amstelvar';
 }
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
@@ -57,9 +56,9 @@ h3{
 
 @keyframes weightChange {
     0%, 100%{
-        font-variation-settings: "opsz" 16, "wght" 200, "slnt" 0;
+        font-variation-settings: "wght" 400, "wdth" 100, "opsz" 14, "GRAD" 0, "XTRA" 562, "XOPQ" 176, "YOPQ" 124, "YTLC" 500, "YTUC" 750, "YTAS" 767, "YTDE" -240, "YTFI" 760;
     }
-    50%{font-variation-settings: "opsz" 16, "wght" 900, "slnt" -13;
+    50%{font-variation-settings: "wght" 1000, "wdth" 125, "opsz" 14, "GRAD" 0, "XTRA" 562, "XOPQ" 176, "YOPQ" 124, "YTLC" 500, "YTUC" 750, "YTAS" 767, "YTDE" -240, "YTFI" 760;
     }
     
 }
