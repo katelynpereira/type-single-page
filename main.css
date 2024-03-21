@@ -1,16 +1,27 @@
 @font-face {
-    src: url('fonts/Amstelvar-Italic[GRAD\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,wdth\,wght\,opsz].ttf') format(".ttf"),
-       
+      src: url('fonts/Amstelvar-Italic[GRAD\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,wdth\,wght\,opsz].woff2') format(".woff2");
+      src: url('fonts/Amstelvar-Italic[GRAD\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,wdth\,wght\,opsz].ttf') format(".ttf"),
 
-    font-family 'Amstelvar';
+      src: url('fonts/Amstelvar-Roman[GRAD\,XOPQ\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,wdth\,wght\,opsz].ttf') format(".ttf");
+      src: url('fonts/Amstelvar-Roman[GRAD\,XOPQ\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,wdth\,wght\,opsz].woff2') format(".woff2");
+  
+}
+    /* font-family: 'amstelvar';
     font-style: normal;
-    font-weight: normal;
-    }
+    font-weight: normal; */
+    
     
     body{
-    background-color: lightsteelblue;
-    font-family: 'Amstelvar';
+         background-color:#470000;
+        font-family: 'Amstelvar';
 }
+    .hero{
+         background-image: url("assets/redvelvet-new2.jpg");
+         background-size: contain;
+         font-family: 'Amstelvar';
+         height: 250px;
+}
+
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
     width: min(100% - 3rem, 80ch);
@@ -28,12 +39,16 @@ grid-template-areas:
     "h v"
     "a a";
 }
-
+.logo {
+    font-style: italic;
+    font-variation-settings: "wght" 772, "wdth" 100, "opsz" 14, "GRAD" 0, "XTRA" 562, "XOPQ" 54, "YOPQ" 54, "YTLC" 500, "YTUC" 750, "YTAS" 767, "YTDE" -240, "YTFI" 760;
+}
 .history {
 grid-area: h;
+color: white;
 }
 
-.variations{
+.axises{
 grid-area: v;
 }
 
@@ -43,20 +58,27 @@ grid-area: a;
 }
 /* CSS for the footer */
 footer{
-    background-color: gray;
+    background: linear-gradient(to bottom, #a02727 0%, #470000 100%);
+    height: 50px;
 }
 
 /* variable font animation */
 h3{
     font-weight:20; 
+    color: white;
     text-align: center;
     font-size: 5em;
     animation: weightChange 7s infinite;
 }
-
+h1 {
+    color: white;
+}
+p {
+    color: white;
+}
 @keyframes weightChange {
     0%, 100%{
-        font-variation-settings: "wght" 400, "wdth" 100, "opsz" 14, "GRAD" 0, "XTRA" 562, "XOPQ" 176, "YOPQ" 124, "YTLC" 500, "YTUC" 750, "YTAS" 767, "YTDE" -240, "YTFI" 760;
+        font-variation-settings: "wght" 100, "wdth" 50, "opsz" 14, "GRAD" 0, "XTRA" 562, "XOPQ" 176, "YOPQ" 54, "YTLC" 420, "YTUC" 750, "YTAS" 540, "YTDE" -500, "YTFI" 760;
     }
     50%{font-variation-settings: "wght" 1000, "wdth" 125, "opsz" 14, "GRAD" 0, "XTRA" 562, "XOPQ" 176, "YOPQ" 124, "YTLC" 500, "YTUC" 750, "YTAS" 767, "YTDE" -240, "YTFI" 760;
     }
