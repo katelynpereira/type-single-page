@@ -1,8 +1,8 @@
 @font-face {
-      src: url('fonts/Amstelvar-Italic[GRAD\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,wdth\,wght\,opsz].woff2') format(".woff2");
+      src: url('fonts/Amstelvar-Italic[GRAD\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,wdth\,wght\,opsz].woff2') format(".woff2"),
       src: url('fonts/Amstelvar-Italic[GRAD\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,wdth\,wght\,opsz].ttf') format(".ttf"),
 
-      src: url('fonts/Amstelvar-Roman[GRAD\,XOPQ\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,wdth\,wght\,opsz].ttf') format(".ttf");
+      src: url('fonts/Amstelvar-Roman[GRAD\,XOPQ\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,wdth\,wght\,opsz].ttf') format(".ttf"),
       src: url('fonts/Amstelvar-Roman[GRAD\,XOPQ\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,wdth\,wght\,opsz].woff2') format(".woff2");
   
 }
@@ -31,9 +31,7 @@
 
 @media only screen and (min-width:800px){
 .page-wrapper{
-display: grid;
 grid-gap: 25px;
-grid-template-columns: 1fr 1fr;
 grid-template-rows: auto;
 grid-template-areas: 
     "h v"
@@ -43,9 +41,24 @@ grid-template-areas:
     font-style: italic;
     font-variation-settings: "wght" 772, "wdth" 100, "opsz" 14, "GRAD" 0, "XTRA" 562, "XOPQ" 54, "YOPQ" 54, "YTLC" 500, "YTUC" 750, "YTAS" 767, "YTDE" -240, "YTFI" 760;
 }
+
+.history-background {
+    size:90px;
+    
+}
+
+.history-box {
+    border-radius: 50px 1px;
+    margin-top: 100px;
+    background: #712B2B;
+     padding: 30px;
+     width: relative;
+     height: relative;
+}
+
 .history {
-grid-area: h;
-color: white;
+    background-color: #712B2B;
+
 }
 
 .axises{
@@ -68,6 +81,7 @@ h3{
     color: white;
     text-align: center;
     font-size: 5em;
+    padding-top: 100px;
     animation: weightChange 7s infinite;
 }
 h1 {
