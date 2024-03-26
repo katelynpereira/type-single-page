@@ -32,7 +32,21 @@
     font-style: italic;
     font-variation-settings: "wght" 772, "wdth" 100, "opsz" 14, "GRAD" 0, "XTRA" 562, "XOPQ" 54, "YOPQ" 54, "YTLC" 500, "YTUC" 750, "YTAS" 767, "YTDE" -240, "YTFI" 760;
 }
-
+.download-button {
+    align: center;
+    margin-top: 100px;
+    background-color: rgb(255, 192, 192); 
+    border: none; 
+    color: rgb(85, 12, 12); 
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block; 
+    font-variation-settings: "wght" 772, "wdth" 100, "opsz" 14, "GRAD" 0, "XTRA" 562, "XOPQ" 54, "YOPQ" 54, "YTLC" 500, "YTUC" 750, "YTAS" 767, "YTDE" -240, "YTFI" 760;
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 20%;
+}
 
 .history-box {
     border-radius: 50px 1px;
@@ -79,6 +93,7 @@ grid-template-areas:
     margin: 4px 2px; 
     cursor: pointer; 
     border-radius: 20%;
+}
 
 .alphabet-box {
     border-radius: 50px 1px;
@@ -114,6 +129,7 @@ h3{
 }
 h1 {
     color: white;
+    align: center;
 }
 p {
     color: white;
@@ -151,4 +167,3 @@ p {
     text-align: center;
     font-variation-settings: "wght" 120, "wdth" 0, "XXXX" 100;
 }
-
