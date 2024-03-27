@@ -1,8 +1,8 @@
 @font-face {
-      src: url('fonts/Amstelvar-Italic[GRAD\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,wdth\,wght\,opsz].woff2') format(".woff2"),
-      src: url('fonts/Amstelvar-Italic[GRAD\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,wdth\,wght\,opsz].ttf') format(".ttf"),
+      src: url('fonts/Amstelvar-Italic[GRAD\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,wdth\,wght\,opsz].woff2') format(".woff2");
+      src: url('fonts/Amstelvar-Italic[GRAD\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,wdth\,wght\,opsz].ttf') format(".ttf");
 
-      src: url('fonts/Amstelvar-Roman[GRAD\,XOPQ\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,wdth\,wght\,opsz].ttf') format(".ttf"),
+      src: url('fonts/Amstelvar-Roman[GRAD\,XOPQ\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,wdth\,wght\,opsz].ttf') format(".ttf");
       src: url('fonts/Amstelvar-Roman[GRAD\,XOPQ\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,wdth\,wght\,opsz].woff2') format(".woff2");
   
 }
@@ -32,12 +32,22 @@ h4 {
     margin-inline: auto;
 }
 
+.word-box {
+    border-radius: 50px 1px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background: #712B2B;
+     padding: 30px;
+     width: relative;
+     height: relative;
+}
+
 .logo {
     font-style: italic;
     font-variation-settings: "wght" 525, "wdth" 109, "opsz" 110, "GRAD" 72, "XTRA" 640, "XOPQ" 93, "YOPQ" 124, "YTLC" 500, "YTUC" 750, "YTAS" 767, "YTDE" -240, "YTFI" 760;
 }
 .download-button {
-    align: center;
+    text-align: center;
     margin-top: 100px;
     background-color: rgb(255, 192, 192); 
     border: none; 
@@ -51,10 +61,36 @@ h4 {
     cursor: pointer; 
     border-radius: 20%;
 }
+.word-box {
+    border-radius: 50px 1px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    background: #712B2B;
+     padding: 30px;
+     width: 400px;
+     height: relative;
+     align-content: center;
+}
+.download-button:hover {
+    text-align: center;
+    margin-top: 100px;
+    background-color: rgb(140, 66, 66); 
+    border: none; 
+    color: #ffc9c9; 
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block; 
+    font-variation-settings: "wght" 772, "wdth" 100, "opsz" 14, "GRAD" 0, "XTRA" 562, "XOPQ" 54, "YOPQ" 54, "YTLC" 500, "YTUC" 750, "YTAS" 767, "YTDE" -240, "YTFI" 760;
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 20%;
+}
 
 .history-box {
     border-radius: 50px 1px;
     margin-top: 100px;
+    margin-bottom: 50px;
     background: #712B2B;
      padding: 30px;
      width: relative;
@@ -67,6 +103,7 @@ h4 {
      padding: 30px;
      width: relative;
      height: relative;
+     text-align: center;
 }
 /* how the page wrapper appears on desktop */
 
@@ -77,6 +114,17 @@ grid-template-rows: auto;
 grid-template-areas: 
     "h v"
     "a a";
+}
+
+.word-box {
+    border-radius: 50px 1px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    background: #712B2B;
+     padding: 30px;
+     width: 400px;
+     height: relative;
+     align-content: center;
 }
 
 .logo {
@@ -91,8 +139,20 @@ grid-template-areas:
     height: 100%; /* Full height */
   }
 
-  .download-button {
-    align: center;
+
+
+.axises-box {
+    border-radius: 1px 50px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    background: #712B2B;
+     padding: 10px;
+     width: relative;
+     height: relative;
+}
+
+.download-button {
+    text-align: center;
     margin-top: 100px;
     background-color: rgb(255, 192, 192); 
     border: none; 
@@ -107,9 +167,26 @@ grid-template-areas:
     border-radius: 20%;
 }
 
+.download-button:hover {
+    text-align: center;
+    margin-top: 100px;
+    background-color: rgb(140, 66, 66); 
+    border: none; 
+    color: #ffc9c9; 
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block; 
+    font-variation-settings: "wght" 772, "wdth" 100, "opsz" 14, "GRAD" 0, "XTRA" 562, "XOPQ" 54, "YOPQ" 54, "YTLC" 500, "YTUC" 750, "YTAS" 767, "YTDE" -240, "YTFI" 760;
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 20%;
+}
+
 .alphabet-box {
     border-radius: 50px 1px;
     margin-top: 100px;
+    margin-bottom: 100px;
     background: #712B2B;
      padding: 30px;
      width: relative;
@@ -141,10 +218,40 @@ h3{
 }
 h1 {
     color: white;
-    align: center;
+    text-align: center;
+    font-style: oblique;
+    font-size: 20px;
 }
 p {
+    size: 50px;
     color: white;
+    text-align: center;
+    font-variation-settings: "wdth" 125;
+
+}
+h2 {   
+    size: 40px;
+    color: white;
+    text-align: center;
+    font-variation-settings: "wght" 1000;
+}
+h4 {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-variation-settings: "grad" 500;
+}
+h5 {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-variation-settings: "XOPQ" 263;
+}
+h6 {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-variation-settings: "XTRA" 640;
 }
 @keyframes weightChange {
     0%, 100%{
@@ -154,28 +261,4 @@ p {
     }
     
 }
-/* variable font that changes on hover */
-.variable-font{
-    font-weight:1 ;
-    height:100vh;
-    font-size: 10em;
-    display:grid;
-    place-content: center;
-    margin: 0;
-    text-align: center;
-    font-variation-settings: "wght" 40, "wdth" 0, "XXXX" 1;
-    transition: 
-        font-weight 500ms,
-        font-variation-settings 3s;
-}
 
-.variable-font:hover{
-    font-weight:500 ;
-    height:100vh;
-    font-size: 7em;
-    display:grid;
-    place-content: center;
-    margin: 0;
-    text-align: center;
-    font-variation-settings: "wght" 120, "wdth" 0, "XXXX" 100;
-}
