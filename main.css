@@ -1,10 +1,18 @@
 @font-face {
-      src: url('fonts/Amstelvar-Italic[GRAD\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,wdth\,wght\,opsz].woff2') format(".woff2");
-      src: url('fonts/Amstelvar-Italic[GRAD\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,wdth\,wght\,opsz].ttf') format(".ttf");
+      src: url('fonts/Amstelvar-Italic[GRAD\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,wdth\,wght\,opsz].woff2') format("woff2"),
+            url('fonts/Amstelvar-Italic[GRAD\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,wdth\,wght\,opsz].ttf') format("ttf");
 
-      src: url('fonts/Amstelvar-Roman[GRAD\,XOPQ\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,wdth\,wght\,opsz].ttf') format(".ttf");
-      src: url('fonts/Amstelvar-Roman[GRAD\,XOPQ\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,wdth\,wght\,opsz].woff2') format(".woff2");
-  
+            font-family: "Amstelvar Italic";
+
+
+}
+
+
+@font-face {
+      src: url('fonts/Amstelvar-Roman[GRAD\,XOPQ\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,wdth\,wght\,opsz].ttf') format("ttf"),
+       url('fonts/Amstelvar-Roman[GRAD\,XOPQ\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,wdth\,wght\,opsz].woff2') format("woff2");
+       
+        font-family: "Amstelvar";
 }
 
     
